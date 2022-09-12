@@ -15,6 +15,7 @@ var miVariable:string='Hola';
 const tem:number=345;
 
 
+
 /*
     ===== Código de TypeScript =====
 */
