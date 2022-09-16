@@ -40,7 +40,7 @@ class Formula{
     public Valores(){
         console.log(`Valores para la formula ${this.valorA}, ${this.valorB}, ${this.valorC}`);
     }
-    public PrimeraParte(){
+    public Resultados(){
         console.log(`Valor de X1:${this.x1}, Valor de X2:${this.x2}`);
     }
 }
@@ -48,4 +48,4 @@ class Formula{
 let Formula1=new Formula();
 Formula1.tirar();
 Formula1.Valores();
-Formula1.PrimeraParte();
+Formula1.Resultados();
