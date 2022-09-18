@@ -8,20 +8,19 @@ class Mul{
 
     }
     getNumero():number{
-        return this.num1;
-        return this.num2;
+        return this.num1, this.num2;
     }
     calcular():void{
 
-        // for (let i = 0; i < this.num2; ++this.num1) {
-        //     console.log(`${this.num1} x ${i} = ${i*this.num1}`);
-        // }
-
-        let s:number=this.num1;
-        while(s<11){
-            console.log(`${this.num1} x ${this.num2} = ${s+this.num1}`);
-              
+        for (let i = this.num1; i <= this.num2; ++i) {
+            console.log(`${this.num2} + ${i} = ${i+this.num2}`);
         }
+
+        // let s:number=this.num1;
+        // while(s<11){
+        //     console.log(`${this.num1} x ${this.num2} = ${s+this.num1}`);
+              
+        // }
 
     }
 
@@ -32,6 +31,5 @@ class Mul{
 let mul1=new Mul();
 
 mul1.setNumero(3,5);
-console.log('variable privada:'+mul1.getNumero());
 
 console.log(mul1.calcular());
